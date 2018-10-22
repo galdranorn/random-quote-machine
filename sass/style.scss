@@ -2,15 +2,13 @@ body {
     background-color: #55acee;
     color: white;
     font-family: Montserrat;
+    text-align: center;
 }
 
-h1 {
-    font-weight: normal;
-    padding: 20px;
-}
-p {
-    padding: 20px;
-}
+h1, p {font-weight: normal;}
+h1, .box {padding: 20px;}
+.author {font-size: 12px;}
+
 button {
     border: .5px solid white;
     background: transparent;
@@ -20,9 +18,15 @@ button {
     padding: 5px;
     margin-top: 20px;
     transition: .1s;
+    a {
+        color: white;
+        text-decoration: none;
+    }
     &:hover {
         background: white;
         color: #55acee;
+        a {color: #55acee;}
+        i {color: #55acee;}
     }
 }
 .container {

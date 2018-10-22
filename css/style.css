@@ -2,15 +2,19 @@ body {
   background-color: #55acee;
   color: white;
   font-family: Montserrat;
+  text-align: center;
 }
 
-h1 {
+h1, p {
   font-weight: normal;
+}
+
+h1, .box {
   padding: 20px;
 }
 
-p {
-  padding: 20px;
+.author {
+  font-size: 12px;
 }
 
 button {
@@ -24,8 +28,21 @@ button {
   transition: .1s;
 }
 
+button a {
+  color: white;
+  text-decoration: none;
+}
+
 button:hover {
   background: white;
+  color: #55acee;
+}
+
+button:hover a {
+  color: #55acee;
+}
+
+button:hover i {
   color: #55acee;
 }
 
