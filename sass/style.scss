@@ -1,0 +1,32 @@
+body {
+    background-color: #55acee;
+    color: white;
+    font-family: Montserrat;
+}
+
+h1 {
+    font-weight: normal;
+    padding: 20px;
+}
+p {
+    padding: 20px;
+}
+button {
+    border: .5px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 40%;
+    padding: 5px;
+    margin-top: 20px;
+    transition: .1s;
+    &:hover {
+        background: white;
+        color: #55acee;
+    }
+}
+.container {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
